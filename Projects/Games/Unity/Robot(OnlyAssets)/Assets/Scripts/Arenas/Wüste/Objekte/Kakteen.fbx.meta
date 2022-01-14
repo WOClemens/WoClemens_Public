@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: 16aff735f93334e96952d7b4adbd8d28
+timeCreated: 1559251686
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Cube
+    100004: Cube.001
+    100006: Icosphere.000
+    100008: Icosphere.001
+    100010: Icosphere.002
+    100012: Icosphere.004
+    100014: Icosphere.005
+    100016: Icosphere.007
+    100018: Icosphere.008
+    100020: //RootNode
+    100022: Lamp
+    400000: Camera
+    400002: Cube
+    400004: Cube.001
+    400006: Icosphere.000
+    400008: Icosphere.001
+    400010: Icosphere.002
+    400012: Icosphere.004
+    400014: Icosphere.005
+    400016: Icosphere.007
+    400018: Icosphere.008
+    400020: //RootNode
+    400022: Lamp
+    2000000: Camera
+    2300000: Cube
+    2300002: Cube.001
+    2300004: Icosphere.000
+    2300006: Icosphere.001
+    2300008: Icosphere.002
+    2300010: Icosphere.004
+    2300012: Icosphere.005
+    2300014: Icosphere.007
+    2300016: Icosphere.008
+    3300000: Cube
+    3300002: Cube.001
+    3300004: Icosphere.000
+    3300006: Icosphere.001
+    3300008: Icosphere.002
+    3300010: Icosphere.004
+    3300012: Icosphere.005
+    3300014: Icosphere.007
+    3300016: Icosphere.008
+    4300000: Cube
+    4300002: Icosphere.004
+    4300004: Icosphere.005
+    4300006: Icosphere.007
+    4300008: Icosphere.008
+    4300010: Icosphere.002
+    4300012: Icosphere.001
+    4300014: Icosphere.000
+    4300016: Cube.001
+    10800000: Lamp
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gelb
+    second: {fileID: 2100000, guid: f81be0953697a43e08c5734b9dc38c7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Gr\xFCn1"
+    second: {fileID: 2100000, guid: e8f7deedb60ae4d059bbd587b9b604cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Gr\xFCn2"
+    second: {fileID: 2100000, guid: df941025f41b14eb79bc4bd0a5cbd7e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Gr\xFCn3"
+    second: {fileID: 2100000, guid: 8dce13a150af14f548f827cc41783134, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 814c05f0dc77a42489fe3d3ff944611c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rosa
+    second: {fileID: 2100000, guid: bd77714e416724adebc964218ad822fe, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,328 @@
+fileFormatVersion: 2
+guid: 28214033ebca748748fb551e385ffe75
+timeCreated: 1570642470
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Cube.001
+    100004: Cube.002
+    100006: Cube.003
+    100008: Cube.004
+    100010: Cube.005
+    100012: Cube.006
+    100014: Cube.007
+    100016: Cube.008
+    100018: Cube.009
+    100020: Cube.011
+    100022: Cube.012
+    100024: Cube.013
+    100026: Cube.014
+    100028: Cube.015
+    100030: Cube.016
+    100032: Cube.017
+    100034: Cube.019
+    100036: Cylinder
+    100038: Cylinder.001
+    100040: Cylinder.002
+    100042: Cylinder.003
+    100044: Cylinder.004
+    100046: Lamp
+    100048: Torus
+    100050: Torus.001
+    100052: Torus.002
+    100054: //RootNode
+    400000: Camera
+    400002: Cube.001
+    400004: Cube.002
+    400006: Cube.003
+    400008: Cube.004
+    400010: Cube.005
+    400012: Cube.006
+    400014: Cube.007
+    400016: Cube.008
+    400018: Cube.009
+    400020: Cube.011
+    400022: Cube.012
+    400024: Cube.013
+    400026: Cube.014
+    400028: Cube.015
+    400030: Cube.016
+    400032: Cube.017
+    400034: Cube.019
+    400036: Cylinder
+    400038: Cylinder.001
+    400040: Cylinder.002
+    400042: Cylinder.003
+    400044: Cylinder.004
+    400046: Lamp
+    400048: Torus
+    400050: Torus.001
+    400052: Torus.002
+    400054: //RootNode
+    2000000: Camera
+    2300000: Cube.001
+    2300002: Cube.002
+    2300004: Cube.003
+    2300006: Cube.004
+    2300008: Cube.005
+    2300010: Cube.006
+    2300012: Cube.007
+    2300014: Cube.008
+    2300016: Cube.009
+    2300018: Cube.011
+    2300020: Cube.012
+    2300022: Cube.013
+    2300024: Cube.014
+    2300026: Cube.015
+    2300028: Cube.016
+    2300030: Cube.017
+    2300032: Cube.019
+    2300034: Cylinder
+    2300036: Cylinder.001
+    2300038: Cylinder.002
+    2300040: Cylinder.003
+    2300042: Cylinder.004
+    2300044: Torus
+    2300046: Torus.001
+    2300048: Torus.002
+    3300000: Cube.001
+    3300002: Cube.002
+    3300004: Cube.003
+    3300006: Cube.004
+    3300008: Cube.005
+    3300010: Cube.006
+    3300012: Cube.007
+    3300014: Cube.008
+    3300016: Cube.009
+    3300018: Cube.011
+    3300020: Cube.012
+    3300022: Cube.013
+    3300024: Cube.014
+    3300026: Cube.015
+    3300028: Cube.016
+    3300030: Cube.017
+    3300032: Cube.019
+    3300034: Cylinder
+    3300036: Cylinder.001
+    3300038: Cylinder.002
+    3300040: Cylinder.003
+    3300042: Cylinder.004
+    3300044: Torus
+    3300046: Torus.001
+    3300048: Torus.002
+    4300000: Cube.006
+    4300002: Cube.001
+    4300004: Cube.002
+    4300006: Cylinder
+    4300008: Cylinder.001
+    4300010: Cylinder.003
+    4300012: Cylinder.004
+    4300014: Torus
+    4300016: Torus.001
+    4300018: Torus.002
+    4300020: Cube.004
+    4300022: Cube.005
+    4300024: Cube.008
+    4300026: Cylinder.002
+    4300028: Cube.007
+    4300030: Cube.011
+    4300032: Cube.012
+    4300034: Cube.013
+    4300036: Cube.014
+    4300038: Cube.015
+    4300040: Cube.016
+    4300042: Cube.017
+    4300044: Cube.019
+    4300046: Cube.003
+    4300048: Cube.009
+    10800000: Lamp
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F11"
+    second: {fileID: 2100000, guid: 1e17287208cac432892d975fc4f50f54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F12"
+    second: {fileID: 2100000, guid: 193321317dad74e01938ef08802eda69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F13"
+    second: {fileID: 2100000, guid: 0ed3b2260618d4a0a9179c93b4e487c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F14"
+    second: {fileID: 2100000, guid: 1f6b19ef4155f47959151aed005db705, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F15"
+    second: {fileID: 2100000, guid: 98e2f1808da4343ab96d6e3d40748648, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F16"
+    second: {fileID: 2100000, guid: 3926019d7d46749a7b7e086f83948c9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F17"
+    second: {fileID: 2100000, guid: d53623574fcbc4f8eb119ba66d3c6a96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F18"
+    second: {fileID: 2100000, guid: d1cc644bf8f7c4df99e71a205f3108cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F19"
+    second: {fileID: 2100000, guid: 01f5b3be9f6e84f9c89159f06b1ff017, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F20"
+    second: {fileID: 2100000, guid: 0268301d67b794f0b9574fa874ad24ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F21"
+    second: {fileID: 2100000, guid: a5f19af283a8b4e4db8eaa8d5425ca9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F22"
+    second: {fileID: 2100000, guid: 948836a8ea6b944fabd75db7342a11d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F23"
+    second: {fileID: 2100000, guid: 8e8174afdb85840b191fc067dc5d1966, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F24"
+    second: {fileID: 2100000, guid: 17680e6167844493dae0585587479473, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F25"
+    second: {fileID: 2100000, guid: e2fedf266e4564c29b0586559640d3fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F3"
+    second: {fileID: 2100000, guid: e52de22eaa7d4426c8120d2205ec3ed8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F4"
+    second: {fileID: 2100000, guid: 46a01133c09dd4730bff0d506560e69a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F5"
+    second: {fileID: 2100000, guid: 715878a0fc43941b4a4638860d953a1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F6"
+    second: {fileID: 2100000, guid: b9dddb3a7f30f46549fe14a49ef1d093, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F7"
+    second: {fileID: 2100000, guid: 9e04c949754544d7e8679b0a54280756, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F8"
+    second: {fileID: 2100000, guid: be4e1ceeb2a934bd590e0f6d83f42ca5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F9"
+    second: {fileID: 2100000, guid: 0ecf8734ce78742808151d7ed47c95f1, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

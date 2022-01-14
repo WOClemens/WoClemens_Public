@@ -1,0 +1,61 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.AI;
+
+public class follow : MonoBehaviour
+{
+    Scene scene;
+
+    private GameObject target;
+    private NavMeshAgent nav;
+
+    public float distanceToTarget;
+    public float rangeToTarget;
+    public bool isStop = false;
+    float speed;
+
+    public GameObject enemy;
+    private NavMeshAgent agent;
+    private follow foll;
+
+    void Start()
+    {
+        if (SceneManager.GetActiveScene().name == "WPath")
+        {
+            target = GameObject.FindWithTag("Target");
+            agent = GetComponent<NavMeshAgent>();
+            agent.enabled = !agent.enabled;
+            foll = GetComponent<follow>();
+            foll.enabled = !foll.enabled;
+        }
+
+        else
+        {
+            target = GameObject.FindWithTag("Target");
+            //enemy.SetActive(false);
+        }
+
+        nav = GetComponent<NavMeshAgent>();
+        speed = nav.speed;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {       
+        distanceToTarget = Vector3.Distance(transform.position, target.transform.position);
+
+        if(distanceToTarget < rangeToTarget)
+        {
+            nav.speed = 0;
+            isStop = true;
+        }
+
+        else
+        {
+            nav.speed = speed;
+            nav.SetDestination(target.transform.position);
+        }
+    }
+}

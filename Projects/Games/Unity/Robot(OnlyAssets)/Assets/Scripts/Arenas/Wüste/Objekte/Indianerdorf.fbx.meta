@@ -1,0 +1,268 @@
+fileFormatVersion: 2
+guid: a810c81a6592b44ad943d7a242b797c8
+timeCreated: 1559251689
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Cube.001
+    100004: Cube.002
+    100006: Cube.003
+    100008: Cube.006
+    100010: Cube.007
+    100012: Cube.008
+    100014: Cube.009
+    100016: Cube.010
+    100018: Cube.011
+    100020: //RootNode
+    100022: Lamp
+    100024: Torus
+    400000: Camera
+    400002: Cube.001
+    400004: Cube.002
+    400006: Cube.003
+    400008: Cube.006
+    400010: Cube.007
+    400012: Cube.008
+    400014: Cube.009
+    400016: Cube.010
+    400018: Cube.011
+    400020: //RootNode
+    400022: Lamp
+    400024: Torus
+    2000000: Camera
+    2300000: Cube.001
+    2300002: Cube.002
+    2300004: Cube.003
+    2300006: Cube.006
+    2300008: Cube.007
+    2300010: Cube.008
+    2300012: Cube.009
+    2300014: Cube.010
+    2300016: Cube.011
+    2300018: Torus
+    3300000: Cube.001
+    3300002: Cube.002
+    3300004: Cube.003
+    3300006: Cube.006
+    3300008: Cube.007
+    3300010: Cube.008
+    3300012: Cube.009
+    3300014: Cube.010
+    3300016: Cube.011
+    3300018: Torus
+    4300000: Torus
+    4300002: Cube.006
+    4300004: Cube.001
+    4300006: Cube.003
+    4300008: Cube.002
+    4300010: Cube.008
+    4300012: Cube.007
+    4300014: Cube.009
+    4300016: Cube.010
+    4300018: Cube.011
+    10800000: Lamp
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Augen 1
+    second: {fileID: 2100000, guid: 712450d697e544277a630128a6b81cc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Augen 2
+    second: {fileID: 2100000, guid: 6d80188f05686455182ca45af1999a4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boden Sand
+    second: {fileID: 2100000, guid: f47f22cbb4ac34112a17d3714edefcba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Braun Holz
+    second: {fileID: 2100000, guid: 66ae736455bc34624bf0f35244e71060, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Braun Zaun
+    second: {fileID: 2100000, guid: dfac41499a7c648dd8dd1947ca352034, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Braun Zelt
+    second: {fileID: 2100000, guid: b46acef7ec2304e5ab958bf28b5dfd4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Feuer Grau
+    second: {fileID: 2100000, guid: e7b029612e11c42698e54e0a6f31ae15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Holz Feuer
+    second: {fileID: 2100000, guid: 05a4c462a746045fba35c2fd0b52bad6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pfahl  Dunkelbraun
+    second: {fileID: 2100000, guid: f26de8f8283a6452282d427509592ed1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pfahl Grau
+    second: {fileID: 2100000, guid: 75e71a0ab4a5e47b3bfb60aa62007a63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Pfahl Gr\xFCn"
+    second: {fileID: 2100000, guid: b0f6eea64a3d544cdb396ed390537c17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pfahl Hellbraun
+    second: {fileID: 2100000, guid: bacf6167b59184eabb633303f432e710, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pfahl Rot
+    second: {fileID: 2100000, guid: 4c9904fb3bf2e4a239a1551936511e28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rot Zelt
+    second: {fileID: 2100000, guid: 620d59937964d4bdd83d6dcde2ec0955, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Schn\xFCrre Feuer"
+    second: {fileID: 2100000, guid: 6d4f3f7ee85504040a49ff6cea487beb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Speere Braun 1
+    second: {fileID: 2100000, guid: 0dacf799cbd9d434ca955c034e06a09b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Speere Braun 2
+    second: {fileID: 2100000, guid: 6a7ac6451956e40e79124a3984f26276, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Speere Grau
+    second: {fileID: 2100000, guid: 134f24b76080347fbb62bcd0429eda91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Speere Griffe Blau
+    second: {fileID: 2100000, guid: 3bcc4088d722a4af29b4420536f3936f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Speere Griffe Gelb
+    second: {fileID: 2100000, guid: 83c7a61c3e9e149d882318ec273dce97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Speere Griffe Gr\xFCn"
+    second: {fileID: 2100000, guid: bc6f7a74d677a41719e220432a60cce8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Speere Griffe Rot
+    second: {fileID: 2100000, guid: bbdeffff31efd4d4d9be5acad0a8f9d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steine Feuer
+    second: {fileID: 2100000, guid: 89604a4b53b38416482e85c8b61d899f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Topf Feuer
+    second: {fileID: 2100000, guid: b510685aece7b4538960a976ffe0853c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Wei\xDF Zelt"
+    second: {fileID: 2100000, guid: 1d87ab3ff6cfb4a86a0bb4d6c0ab5220, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

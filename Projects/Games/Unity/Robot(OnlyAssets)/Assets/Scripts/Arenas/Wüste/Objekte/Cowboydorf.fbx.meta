@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: 48e40e5d9912f46f6b78034359562e69
+timeCreated: 1559251687
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Camera
+    100002: //RootNode
+    100004: Cube
+    100006: Cube.003
+    100008: Cube.004
+    100010: Cube.005
+    100012: Cube.006
+    100014: Cube.007
+    100016: Cube.008
+    100018: Cube.009
+    100020: Cube.010
+    100022: Cube.011
+    100024: Cube.014
+    100026: Cube.016
+    100028: Cube.017
+    100030: Cube.020
+    100032: Cube.028
+    100034: Cube.074
+    100036: Lamp
+    400000: Camera
+    400002: //RootNode
+    400004: Cube
+    400006: Cube.003
+    400008: Cube.004
+    400010: Cube.005
+    400012: Cube.006
+    400014: Cube.007
+    400016: Cube.008
+    400018: Cube.009
+    400020: Cube.010
+    400022: Cube.011
+    400024: Cube.014
+    400026: Cube.016
+    400028: Cube.017
+    400030: Cube.020
+    400032: Cube.028
+    400034: Cube.074
+    400036: Lamp
+    2000000: Camera
+    2300000: Cube
+    2300002: Cube.003
+    2300004: Cube.004
+    2300006: Cube.005
+    2300008: Cube.006
+    2300010: Cube.007
+    2300012: Cube.008
+    2300014: Cube.009
+    2300016: Cube.010
+    2300018: Cube.011
+    2300020: Cube.014
+    2300022: Cube.016
+    2300024: Cube.017
+    2300026: Cube.020
+    2300028: Cube.028
+    2300030: Cube.074
+    3300000: Cube
+    3300002: Cube.003
+    3300004: Cube.004
+    3300006: Cube.005
+    3300008: Cube.006
+    3300010: Cube.007
+    3300012: Cube.008
+    3300014: Cube.009
+    3300016: Cube.010
+    3300018: Cube.011
+    3300020: Cube.014
+    3300022: Cube.016
+    3300024: Cube.017
+    3300026: Cube.020
+    3300028: Cube.028
+    3300030: Cube.074
+    4300000: Cube.011
+    4300002: Cube.004
+    4300004: Cube
+    4300006: Cube.008
+    4300008: Cube.017
+    4300010: Cube.014
+    4300012: Cube.009
+    4300014: Cube.006
+    4300016: Cube.005
+    4300018: Cube.074
+    4300020: Cube.010
+    4300022: Cube.007
+    4300024: Cube.003
+    4300026: Cube.020
+    4300028: Cube.016
+    4300030: Cube.028
+    10800000: Lamp
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blau 1
+    second: {fileID: 2100000, guid: 661b5e38493b545d994b913e28601fb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blau 2
+    second: {fileID: 2100000, guid: 4af84aea694f04deb938641567bccead, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blau 3
+    second: {fileID: 2100000, guid: a914b664e30664b789185ea69cb19dad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blau 4
+    second: {fileID: 2100000, guid: 90b2c898782eb4d75ae899e98165808c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Braun
+    second: {fileID: 2100000, guid: 2cdac20fc92944a51bf2106b2c20acaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Braun 1
+    second: {fileID: 2100000, guid: 770eb3ba72dd54585a8819640a3ede3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Braun 2
+    second: {fileID: 2100000, guid: 97895e75512784d2e9ce1fc982965bf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Braun 3
+    second: {fileID: 2100000, guid: 3df5ba8418d4e4eab9a7f54d20cef742, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Braun 4
+    second: {fileID: 2100000, guid: fcc9a6b4fff1646a4890131131253ffb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Braun 5
+    second: {fileID: 2100000, guid: fa90132cc76934b4a8a726562cab1c61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Braun 6
+    second: {fileID: 2100000, guid: dc3c8e1bca43f4af5b33b183a924fe2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Braun 7
+    second: {fileID: 2100000, guid: 0188a05fa2372458683c34be4bf2b77f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Braun 8
+    second: {fileID: 2100000, guid: 53e1b7b7322e1468cacfdbfa9f340299, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dunkel Braun_Rot
+    second: {fileID: 2100000, guid: 51fab1d61f56c492a9fdb9f40e24d176, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gelb 1
+    second: {fileID: 2100000, guid: 09954e25e78f04df78fdc093f39dc764, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grau 1
+    second: {fileID: 2100000, guid: 9ef83474be4c0443991adaff97d16870, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Gr\xFCn 1"
+    second: {fileID: 2100000, guid: 004fd5044946e4204bf05af1eaf6117d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 814c05f0dc77a42489fe3d3ff944611c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rot 1
+    second: {fileID: 2100000, guid: 7c7ba854e3af947c79c940b1dae97f0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rot 2
+    second: {fileID: 2100000, guid: 012f47a2faaff47988f184c9f7e0dd41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rot 3
+    second: {fileID: 2100000, guid: 1f1e4058417ce449986d856651caf1b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sand
+    second: {fileID: 2100000, guid: dda6d1aca55fb4b06a8096811c75587a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

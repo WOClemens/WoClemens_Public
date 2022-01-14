@@ -1,0 +1,130 @@
+﻿using System.Collections;
+using UnityEngine;
+
+public class Survive : MonoBehaviour
+{
+    [Header("Modi")]
+    public bool isTrain;
+    public bool isPath;
+
+    [Header("Spawn Points")]
+    public Transform[] spawnpoints;
+
+    [Header("Gegener")]
+    public Transform[] enemys;
+
+    [Header("Welle")]
+    public int waveCount = 0;
+
+    [Header("Wartezeit zwischen Wellen")]
+    public float waitBetweenWaves = 5f;
+
+    [Header("Wartezeit zwischen Gegner")]
+    public float waitBetweenEnemys = 1;
+
+    [Header("Anzahl der Spawnenden Gegener")]
+    public int enemysAreSpawning = 5;
+    int enemySpawnPoint = 0;
+    float timer = 0f;
+
+    [Header("Übrige Gegner")]
+    public int enemysAlive = 0;
+    bool isStart = false;
+    bool isWaveEnd = false;
+    bool isGameStart = false;
+    int enemyIsSpawning = 0;
+
+    bool isWin = false;
+    int halfEnemysSpawn;
+
+    [Header("Start Page")]
+    public GameObject StartPage;
+
+    void Start()
+    {
+        isWin = false;
+        StartPage.SetActive(true);
+    }
+
+    public void Isstart()
+    {
+        isStart = true;
+        isGameStart = true;
+        StartPage.SetActive(false);
+    }
+
+    void Update()
+    {
+        if (isStart == true && isGameStart == true && enemysAlive <= 0)
+        {
+            isWaveEnd = false;
+            isStart = false;
+            waveCount++;
+            Debug.Log("Welle " + waveCount + "wird starten");
+            StartCoroutine("Wave");
+        }
+
+        if (enemysAlive == 0 && isWaveEnd == true && isGameStart == true)
+        {
+            isStart = true;
+        }
+
+        timer += Time.deltaTime;     
+        
+
+        if (isTrain == true)
+        {
+
+        }
+    }
+
+    void Spawn()
+    {
+        int ending = spawnpoints.Length;
+        int spawning = Random.Range(0, ending);
+
+        Instantiate(enemys[enemyIsSpawning], spawnpoints[spawning].position, Quaternion.identity);
+        enemysAlive++;
+    }
+
+    IEnumerator Wave()
+    {
+        yield return new WaitForSeconds(waitBetweenWaves);
+        double ets = enemysAreSpawning/2;
+        halfEnemysSpawn = (int)ets;
+
+        for (int b = 0; b < halfEnemysSpawn + 1; b++)
+        {
+            Spawn();
+            yield return new WaitForSeconds(waitBetweenEnemys);
+        }
+
+        if (waveCount % 2 == 0)
+        {
+            enemyIsSpawning--;
+        }
+
+        else
+        {
+            enemyIsSpawning++;
+        }
+
+        for (int b = 0; b < halfEnemysSpawn; b++)
+        {
+            Spawn();
+            yield return new WaitForSeconds(waitBetweenEnemys);
+        }
+
+
+        enemysAreSpawning = enemysAreSpawning + 2;
+        yield return new WaitForSeconds(waitBetweenWaves);
+
+        if (waveCount % 2 == 0)
+        {
+            enemyIsSpawning = enemyIsSpawning + 2;
+        }
+
+        isWaveEnd = true;
+    }
+
+}

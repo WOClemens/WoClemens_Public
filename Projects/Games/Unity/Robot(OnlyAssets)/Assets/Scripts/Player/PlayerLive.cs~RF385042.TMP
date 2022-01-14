@@ -1,0 +1,100 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class PlayerLive : MonoBehaviour
+{
+    [Header("Lives")]
+    public int pathLives;
+    public int playerLives;
+
+    Projectile projectile;
+    public bool isGameLost;
+    public bool isGameWin;
+
+    void Start()
+    {
+        isGameLost = false;
+        isGameWin = false;
+    }
+
+    void Update()
+    {
+        if(SceneManager.GetActiveScene().name == "WPath")
+        {
+
+        }
+
+        SceneManager.GetActiveScene().name == "WPath"
+
+        if (pathLives <= 0 || playerLives <= 0)
+        {
+            Debug.Log("Player Leben 0");
+            isGameLost = true;
+        }
+    }
+
+    void OnCollisionEnter(Collision col)
+    {
+        if (col.gameObject.tag == "EnemyP1")
+        {
+            projectile = GameObject.FindWithTag("EnemyP1").GetComponent<Projectile>();
+            playerLives = playerLives - projectile.damag;
+        }
+
+        if (col.gameObject.tag == "EnemyP2")
+        {
+            projectile = GameObject.FindWithTag("EnemyP2").GetComponent<Projectile>();
+            playerLives = playerLives - projectile.damag;
+        }
+
+        if (col.gameObject.tag == "EnemyP3")
+        {
+            projectile = GameObject.FindWithTag("EnemyP3").GetComponent<Projectile>();
+            playerLives = playerLives - projectile.damag;
+        }
+
+        if (col.gameObject.tag == "EnemyP4")
+        {
+            projectile = GameObject.FindWithTag("EnemyP4").GetComponent<Projectile>();
+            playerLives = playerLives - projectile.damag;
+        }
+
+        if (col.gameObject.tag == "EnemyP5")
+        {
+            projectile = GameObject.FindWithTag("EnemyP5").GetComponent<Projectile>();
+            playerLives = playerLives - projectile.damag;
+        }
+
+        if (col.gameObject.tag == "EnemyP6")
+        {
+            projectile = GameObject.FindWithTag("EnemyP6").GetComponent<Projectile>();
+            playerLives = playerLives - projectile.damag;
+        }
+
+        if (col.gameObject.tag == "EnemyP7")
+        {
+            projectile = GameObject.FindWithTag("EnemyP7").GetComponent<Projectile>();
+            playerLives = playerLives - projectile.damag;
+        }
+
+        if (col.gameObject.tag == "EnemyP8")
+        {
+            projectile = GameObject.FindWithTag("EnemyP8").GetComponent<Projectile>();
+            playerLives = playerLives - projectile.damag;
+        }
+
+        if (col.gameObject.tag == "EnemyP9")
+        {
+            projectile = GameObject.FindWithTag("EnemyP9").GetComponent<Projectile>();
+            playerLives = playerLives - projectile.damag;
+        }
+
+        if (col.gameObject.tag == "EnemyP10")
+        {
+            projectile = GameObject.FindWithTag("EnemyP10").GetComponent<Projectile>();
+            playerLives = playerLives - projectile.damag;
+        }
+    }
+}

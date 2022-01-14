@@ -1,0 +1,253 @@
+fileFormatVersion: 2
+guid: f0d38629bdd844ab7ad1c69624b7b175
+timeCreated: 1570642473
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Cube.001
+    100004: Cube.002
+    100006: Cube.003
+    100008: Cube.006
+    100010: Cube.007
+    100012: Cube.008
+    100014: Cube.009
+    100016: Cube.010
+    100018: //RootNode
+    100020: Lamp
+    100022: Torus
+    400000: Camera
+    400002: Cube.001
+    400004: Cube.002
+    400006: Cube.003
+    400008: Cube.006
+    400010: Cube.007
+    400012: Cube.008
+    400014: Cube.009
+    400016: Cube.010
+    400018: //RootNode
+    400020: Lamp
+    400022: Torus
+    2000000: Camera
+    2300000: Cube.001
+    2300002: Cube.002
+    2300004: Cube.003
+    2300006: Cube.006
+    2300008: Cube.007
+    2300010: Cube.008
+    2300012: Cube.009
+    2300014: Cube.010
+    2300016: Torus
+    3300000: Cube.001
+    3300002: Cube.002
+    3300004: Cube.003
+    3300006: Cube.006
+    3300008: Cube.007
+    3300010: Cube.008
+    3300012: Cube.009
+    3300014: Cube.010
+    3300016: Torus
+    4300000: Torus
+    4300002: Cube.006
+    4300004: Cube.001
+    4300006: Cube.003
+    4300008: Cube.002
+    4300010: Cube.008
+    4300012: Cube.007
+    4300014: Cube.009
+    4300016: Cube.010
+    10800000: Lamp
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F41"
+    second: {fileID: 2100000, guid: 6797ec4ac406a4ed7982f475ca4b9cc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F42"
+    second: {fileID: 2100000, guid: c481211e4e1674cd18d336ab39ead7b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F43"
+    second: {fileID: 2100000, guid: b724a3f9185d84f90a33a575accf6ac8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F44"
+    second: {fileID: 2100000, guid: c9fbab287f155446fa9f1d04e88ac72d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F45"
+    second: {fileID: 2100000, guid: 6e12f18baa70b484d86e738c2eb82c22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F46"
+    second: {fileID: 2100000, guid: 8d8df496363c9482184edd97aa6290eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F47"
+    second: {fileID: 2100000, guid: e9f0a6aee25a94937b24fc682c2824fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F48"
+    second: {fileID: 2100000, guid: 9f5449299cb5e4afe9cc69c3862fa73a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F49"
+    second: {fileID: 2100000, guid: 8897710c5fad14fc3b7d1eafce90b4ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F50"
+    second: {fileID: 2100000, guid: b6aaff838afc140e1b0caf9c45b3a590, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F51"
+    second: {fileID: 2100000, guid: 036eff7f640e34fce9f557c48451fbb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F52"
+    second: {fileID: 2100000, guid: 1097bc305564e4ce98361226bb5ea42d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F53"
+    second: {fileID: 2100000, guid: 5d818f961c6544dfc81bf64474ceb4a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F54"
+    second: {fileID: 2100000, guid: f3bcdd3cd7ad747789705e75b9227adf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F55"
+    second: {fileID: 2100000, guid: 4a236d204a85a41f18e04feca85058dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F56"
+    second: {fileID: 2100000, guid: 57c629abb671e4af1a7e431cd03831f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F57"
+    second: {fileID: 2100000, guid: 266f93ab3f3f3409c8a6e74789de94f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F58"
+    second: {fileID: 2100000, guid: 5ae184afe6010447b85a3a50bfc5aa2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F59"
+    second: {fileID: 2100000, guid: b11f764f0ecdd43378712cc4958de357, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F60"
+    second: {fileID: 2100000, guid: 25329bdd39c3b487699089afcb53e3c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F61"
+    second: {fileID: 2100000, guid: df0df939762554a2289810b1a871e1e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F62"
+    second: {fileID: 2100000, guid: b4ab914f045314fc9b54decbc5b7eaae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "W\xFCste F63"
+    second: {fileID: 2100000, guid: a5cd0997ad1fa41c8ad1b323e0b962c9, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

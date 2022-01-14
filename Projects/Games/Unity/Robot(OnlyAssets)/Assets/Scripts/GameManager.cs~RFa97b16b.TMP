@@ -1,0 +1,174 @@
+﻿using System.Collections;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
+public class GameManager : MonoBehaviour
+{
+    Scene scene;
+
+    public GameObject loadingScreen;
+    public Slider slider;
+
+    MoneyArena myMoneyArena;
+    MoneyManager myMoneyManager;
+
+    [Header("Arena Path Load")]
+    public int arena1Path;
+    public int arena2Path;
+    public int arena3Path;
+    public int arena4Path;
+
+    [Header("Arena Train Load")]
+    public int arena1Train;
+    public int arena2Train;
+    public int arena3Train;
+    public int arena4Train;
+
+    Survive mySurvive;
+    PlayerLive playerLive;
+
+    bool isEnd = false;
+
+    void Start()
+    {
+        isEnd = false;
+        scene = SceneManager.GetActiveScene();
+
+        if(scene.name == "StartMenu")
+        {
+            myMoneyArena = GameObject.Find("MoneyManager").GetComponent<MoneyArena>();
+            myMoneyManager = GameObject.Find("MoneyManager").GetComponent<MoneyManager>();
+        }
+
+        else//if(scene.name == "WPath")
+        {
+            mySurvive = GameObject.Find("WaveManager").GetComponent<Survive>();
+            playerLive = GameObject.FindWithTag("Player").GetComponent<PlayerLive>();
+        }
+        
+    }
+
+    public void ArenaPath()
+    {
+        LoadArena(arena1Path, arena2Path, arena3Path, arena4Path);
+    }
+
+    public void ArenaTrain()
+    {
+        LoadArena(arena1Train, arena2Train, arena3Train, arena4Train);
+    }
+
+    void LoadArena(int arena1, int arena2, int arena3, int arena4)
+    {
+
+        switch (myMoneyArena.arenaToPlay)
+        {
+            case 1:
+                StartCoroutine(LoadScene(arena1));
+                myMoneyManager.money = myMoneyManager.money - myMoneyArena.arena1Kosten;
+                break;
+            case 2:
+                StartCoroutine(LoadScene(arena2));
+                myMoneyManager.money = myMoneyManager.money - myMoneyArena.arena2Kosten;
+                break;
+            case 3:
+                StartCoroutine(LoadScene(arena3));
+                myMoneyManager.money = myMoneyManager.money - myMoneyArena.arena3Kosten;
+                break;
+            case 4:
+                StartCoroutine(LoadScene(arena4));
+                myMoneyManager.money = myMoneyManager.money - myMoneyArena.arena4Kosten;
+                break;
+        }
+
+    }
+
+    IEnumerator LoadScene(int scene)
+    {
+        AsyncOperation operation = SceneManager.LoadSceneAsync(scene);
+
+        loadingScreen.SetActive(true);
+
+        while (!operation.isDone)
+        {
+            float progress = Mathf.Clamp01(operation.progress / .9f);
+
+            slider.value = progress;
+
+            yield return null;
+        }
+
+
+    }
+
+    void Update()
+    {
+        if (SceneManager.GetActiveScene().name == "WPath")
+        {
+            if (playerLive.pathLives <= 0 && isEnd == false)
+            {
+                PlayerPrefs.SetInt("WinOrLose", 0);
+                isEnd = true;
+                StartCoroutine(LoadScene(0));
+            }
+
+            if (mySurvive.waveCount > 10 && isEnd == false)
+            {
+                isEnd = true;
+                PlayerPrefs.SetInt("WinOrLose", 2);
+                StartCoroutine(LoadScene(0));
+            }
+
+        }
+
+        if (SceneManager.GetActiveScene().name == "WSurvive")
+        {
+            if (playerLive.playerLives <= 0 && isEnd == false)
+            {
+                PlayerPrefs.SetInt("WinOrLose", 0);
+                isEnd = true;
+                StartCoroutine(LoadScene(0));
+            }
+
+            if (mySurvive.waveCount > 10 && isEnd == false)
+            {
+                isEnd = true;
+                PlayerPrefs.SetInt("WinOrLose", 2);
+                StartCoroutine(LoadScene(0));
+            }
+
+        }
+
+        if (SceneManager.GetActiveScene().name == "WTrain")
+        {
+            if (playerLive.isGameLost == true && isEnd == false)
+            {
+                PlayerPrefs.SetInt("WinOrLose", 0);
+                isEnd = true;
+                StartCoroutine(LoadScene(0));
+                Debug.Log("Lost");
+            }
+
+            if (playerLive.isGameWin == true && isEnd == false)
+            {
+                Debug.Log("Win");
+                isEnd = true;
+                PlayerPrefs.SetInt("WinOrLose", 2);
+                StartCoroutine(LoadScene(0));
+            }
+
+        }
+
+    }
+
+        public void StartMenu(int scene)
+    {
+        StartCoroutine(LoadScene(scene));
+    }
+
+}
+
+
+
+
