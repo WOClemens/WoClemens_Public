@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Unity</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="Css\UnityStyle.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3><img src="Bilder\Logo.png" alt="logo" style="width: 100px;"></h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>Unity</p>
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Unity</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                      <li>
+                          <a href="Unity.html">Beginning</a>
+                      </li>
+                      <li>
+                          <a href="Basics.html">Basics</a>
+                      </li>
+                      <li>
+                          <a href="Camera.html">Camera</a>
+                      </li>
+                      <li>
+                          <a href="Physics.html">Physics</a>
+                      </li>
+                      <li>
+                          <a href="#">Audio</a>
+                      </li>
+                      <li>
+                          <a href="#">Animations</a>
+                      </li>
+                      <li>
+                          <a href="#">Publish</a>
+                      </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                      <a href="../Main.html">Home</a>
+                    </li>
+                    <li>
+                      <a href="#">Courses</a>
+                    </li>
+                    <li>
+                        <a href="#">Chatroom</a>
+                    </li>
+                    <li>
+                      <a href="#">Support</a>
+                    </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Help</a>
+                </li>
+            </ul>
+
+            <ul class="list-unstyled CTAs">
+                <li>
+                    <a href="#" class="download">Beginning</a>
+                </li>
+                <li>
+                    <a href="#" class="article"></a>
+                </li>
+                <li>
+                    <a href="#introduction" class="article">Introduction</a>
+                </li>
+                <li>
+                    <a href="#download" class="article">Download</a>
+                </li>
+                <li>
+                    <a href="#create" class="article">Create the first project</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">1 / 7</a>
+                            </li>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <h2 id="introduction">Introduction</h2>
+            Unity is a development environment for programming games of all kinds. From powerful computer games to simple cell phone games,<br>
+            everything is possible.<br>
+            In Unity, 3D - 2D games or animated films can be produced.<br>
+            Since unity was originally developed for 3d games, it is often called unity3d, which is not entirely correct.<br>
+            In this course we will cover the most important steps from download to publication.<br><br><br>
+
+            <div class="line"></div>
+
+            <h2 id="download">Download</h2>
+            To download Unity you should first download Unity Hub because there you can easily download and view the different versions of Unity.
+            Unity Hub can be downloaded <a href="https://unity3d.com/de/get-unity/download"><strong><em>here</em></strong></a>.<br><br><br>
+
+            <div class="line"></div>
+
+            <h2 id="create">Create the first project</h2>
+            In order to create our first project we first open the Unity hub.
+            If you have already created a project and you open Unity hub for the first time, click add and search for your project.
+            In our case we don't have that and that's why we press new.
+            With the arrow directly to the right of new you can change the version if you have more than one.<br>
+            Now you can choose which type of you project should be the most important are <strong>2d</strong> and <strong>3d</strong>.<br><br><br>
+            <img src="Bilder\CreateProject\CreatProject.png" alt="add" style="width:50%;"><br>
+            <strong>2D:</strong> a regular 2d game <br><br>
+            <strong>3D:</strong> a regular 3d game <br><br>
+            <strong>3D whith Extras:</strong> a 3d game with post processing<br><br>
+            <strong>High-Definition Rp:</strong> 3d that uses the HD Render Pipeline<br><br>
+            <strong>Lightweight RP:</strong> 3d that uses the Lightweight Render Pipeline<br><br>
+            <strong>VR Lightweight RP:</strong> 3d with Lightweight VR Render Pipeline<br><br><br><br>
+
+            Finally, we have to choose a name and the location.<br><br><br>
+
+
+            <div class="line"></div>
+
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>

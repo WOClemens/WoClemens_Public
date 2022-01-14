@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Learn Easy | Learn what you want</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <header id="header">
+      <a href="Forum.html" class="logo">Back</a>
+      <div class="toggle" onclick="toggle()">
+      </div>
+    </header>
+
+    <section class="bannerForum">
+      <script src="postScript.js"></script>
+
+      <div style = "margin-top: 40px; padding-top: 50px; padding-bottom: 100px; width: 50%; padding-left: 20px; padding-right: 20px;">
+        <div class="formular">
+          <form id="formular" >
+           <label for="exampleFormControlSelect1" style="color: white;">Select type</label>
+           <select class="form-control" type="text" name="fType" id="fType">
+                 <option>Question</option>
+                 <option>Exercise</option>
+               </select><br><br>
+          <label for="exampleFormControlInput1" style="color: white;">Title</label>
+          <input class="form-control" type="text" name="fTitle" id="fTitle"><br>
+           <div class="form-group">
+             <label for="exampleFormControlTextarea1" style="color: white;">Text</label>
+             <textarea class="form-control" type="text" name="fDescription" id="fDescription" rows="5" placeholder="Text"></textarea>
+           </div>
+           <label for="exampleFormControlInput1" style="color: white;">Name</label>
+        	 <input class="form-control" type="text" name="fName" id="fName"><br>
+
+              <input  class="btn btn-primary" type="button" onclick="submitToServer()"  value="Post">
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="script_post.js"></script>
+  </body>
+</html>

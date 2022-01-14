@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Learn Easy | Learn what you want</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header id="header">
+      <a href="#" class="logo">Logo</a>
+      <ul>
+        <li><a href="#home" onclick="toggle()">Home</a></li>
+        <li><a href="#courses" onclick="toggle()">Courses</a></li>
+        <li><a href="#forum" onclick="toggle()">Forum</a></li>
+        <li><a href="#about" onclick="toggle()">About us</a></li>
+        <li><a href="#about" onclick="toggle()">Contact</a></li>
+      </ul>
+      <div class="toggle" onclick="toggle()">
+
+      </div>
+    </header>
+
+    <section class="banner" id="home">
+      <h2>Learn what<br><span>YOU</span> want</h2>
+    </section>
+    <section class="sec" id="courses">
+      <div class="content">
+        <br><br><br>
+        <h3>Courses <strong>New:</strong></h3>
+        <div class="mxw800p">
+          <div class="courses">
+            <div class="container">
+              <div class="card">
+                <div class="imgBx">
+                  <img src="Bilder/unityG.png" alt="unity">
+                </div>
+                <div class="contentCard">
+                  <h2>Unity</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="Unity/Unity.html" class="btn">Visit Unity</a><br>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imgBx">
+                  <img src="Bilder/csharp.png" alt="unity">
+                </div>
+                <div class="contentCard">
+                  <h2>C#</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="CSharp/MainPage.html" class="btn">Visit C#</a><br>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imgBx">
+                  <img src="Bilder/htmlcss.png" alt="unity">
+                </div>
+                <div class="contentCard">
+                  <h2>Card Three</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="Courses/Courses.html" class="btn">See all courses</a><br><br>
+        </div>
+      </div>
+    </section>
+
+    <section class="imgOne"></section>
+
+    <section class="sec" id="forum">
+      <div class="content" style="background: #31B404;">
+        <br><br><br>
+        <h3>Forums</h3>
+        <div class="mxw800p">
+          <div class="courses" style="background: #31B404;">
+            <div class="container">
+              <div class="card">
+                <div class="imgBx">
+                  <img src="Bilder/fragezeichen.png" alt="unity">
+                </div>
+                <div class="contentCard">
+                  <h2>Forum</h2>
+                  <p>Just aks a question or look if you can find something helpful. Mabey you can also help somebody</p><br>
+                  <a href="Forum.html" class="btn">Visit the Forum</a><br>
+                </div>
+              </div>
+              <!--<div class="card">
+                <div class="imgBx">
+                  <img src="Bilder/aufgabenLogo.png" alt="unity">
+                </div>
+                <div class="contentCard">
+                  <h2>Card Two</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
+                  <a href="Forum.html" class="btn">Visit the Forum</a><br>
+                </div>
+              </div>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="imgTwo"></section>
+
+    <section class="about" id="about">
+      <div class="content">
+        <br><br>
+        <h3 style="color: #fff;">About us</h3>
+        <div class="mxw800p">
+        </div>
+      </div>
+    </section>
+
+    <script type="text/javascript">
+      window.addEventListener('scroll', function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      })
+      function toggle() {
+        var header = document.querySelector("header");
+        header.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>

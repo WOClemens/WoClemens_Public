@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Learn Easy | Learn what you want</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header id="header">
+      <a href="#" class="logo">Logo</a>
+      <ul>
+        <li><a href="Main.html" class="logo" onclick="toggle()">Home</a></li>
+      </ul>
+      <div class="toggle" onclick="toggle()">
+
+      </div>
+    </header>
+
+    <section class="bannerForum">
+      <h2>You need help,<br>ask <span style="color: #FE2EC8;">our</span><br> great community</h2>
+      <div class="clouds">
+        <img src="Bilder/cloud1.png" style="--i:1;">
+        <img src="Bilder/cloud2.png" style="--i:2;">
+        <img src="Bilder/cloud3.png" style="--i:3;">
+        <img src="Bilder/cloud4.png" style="--i:4;">
+        <img src="Bilder/cloud5.png" style="--i:5;">
+      </div>
+    </section>
+
+    <div class="poste">
+      <h2 style="font-size: 50px;">Need help?</h2>
+      <a href="postForm.html" class="btnPoste">Poste</a>
+      <h2 style="font-size: 40px;">a question</h2>
+    </div>
+
+    <div id="root"></div>
+
+    <script src="script.js"></script>
+    <script src="script_post.js"></script>
+
+    <script type="text/javascript">
+      window.addEventListener('scroll', function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      })
+      function toggle() {
+        var header = document.querySelector("header");
+        header.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
