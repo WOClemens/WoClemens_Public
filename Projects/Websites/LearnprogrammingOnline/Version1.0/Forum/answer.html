@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Form</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body style="background: #222222;">
+  <h1>Fill out the form</h1>
+  <div id="root"></div>
+
+  <script src="postScript.js"></script>
+
+  <div style = "background: white; margin-top: 40px; padding-top: 50px; padding-bottom: 100px;">
+    <div class="formular">
+      <form id="formular" >
+       <label for="exampleFormControlSelect1">Select type</label>
+       <select class="form-control" type="text" name="fType" id="fType">
+             <option>Answer</option>
+           </select><br><br>
+      <label for="exampleFormControlInput1">Name der Frage</label>
+      <input class="form-control" type="text" name="fTitle" id="fTitle"><br>
+       <div class="form-group">
+         <label for="exampleFormControlTextarea1">Text</label>
+         <textarea class="form-control" type="text" name="fDescription" id="fDescription" rows="5" placeholder="Text"></textarea>
+       </div>
+       <label for="exampleFormControlInput1">Name</label>
+    	 <input class="form-control" type="text" name="fName" id="fName"><br>
+
+          <input type="button" onclick="submitToServer()"  value="sumbit">
+          <a class="btn btn-primary" href="fragen.html">Back</a>
+      </form>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>

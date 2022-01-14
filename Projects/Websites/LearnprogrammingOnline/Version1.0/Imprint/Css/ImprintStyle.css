@@ -1,0 +1,9 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+.bg-company-custom {
+    background-color: #1C1C1C !important;
+    font-size: 180%;
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Unity</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="Css\UnityStyle.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3><img src="Bilder\Logo.png" alt="logo" style="width: 100px;"></h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>Unity</p>
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Unity</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                      <li>
+                          <a href="Unity.html">Beginning</a>
+                      </li>
+                      <li>
+                          <a href="Basics.html">Basics</a>
+                      </li>
+                      <li>
+                          <a href="Camera.html">Camera</a>
+                      </li>
+                      <li>
+                          <a href="Physics.html">Physics</a>
+                      </li>
+                      <li>
+                          <a href="#">Audio</a>
+                      </li>
+                      <li>
+                          <a href="#">Animations</a>
+                      </li>
+                      <li>
+                          <a href="#">Publish</a>
+                      </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                      <a href="../Main/Main.html">Home</a>
+                    </li>
+                    <li>
+                      <a href="#">Courses</a>
+                    </li>
+                    <li>
+                        <a href="#">Chatroom</a>
+                    </li>
+                    <li>
+                      <a href="#">Support</a>
+                    </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Help</a>
+                </li>
+            </ul>
+
+            <ul class="list-unstyled CTAs">
+                <li>
+                    <a href="#" class="download">Basics</a>
+                </li>
+                <li>
+                    <a href="" class=""></a>
+                </li>
+                <li>
+                    <a href="#introduction" class="article">Introduction</a>
+                </li>
+                <li>
+                    <a href="#tips" class="article">Tips</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">1 / 7</a>
+                            </li>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <h2 id="introduction">Introduction</h2> <br>
+            Cameras are the devices that capture and display the world to the player. By customizing and manipulating cameras, you can make the presentation of your game truly unique. You can have an unlimited number of cameras in a scene. <br>
+            They can be set to render in any order, at any place on the screen, or only certain parts of the screen.<br><br>
+            <div class="line"></div>
+            <h2 id="properties">Properties</h2><br>
+            Unity displays different properties in the Camera Inspector <br>
+            depending on the render pipeline that your Project uses.<br>
+
+            If your Project uses the Universal Render Pipeline (URP), see the URP package documentation microsite.<br>
+            If your Project uses the High Definition Render Pipeline (HDRP), see the HDRP package documentation microsite.<br><br>
+            <div class="line"></div>
+            <h2 id="details">Details</h2><br>
+
+            Cameras are essential for displaying your game to the player. They can be customized, scripted, or parented to achieve just about any kind of effect imaginable. For a puzzle game, you might keep the Camera static for a full view of the puzzle. For a first-person shooter, you would parent the Camera to the player character, and place it at the character’s eye level. For a racing game, you’d probably have the Camera follow your player’s vehicle. <br>
+
+            You can create multiple Cameras and assign each one to a different Depth. Cameras are drawn from low Depth to high Depth. In other words, a Camera with a Depth of 2 will be drawn on top of a Camera with a depth of 1. You can adjust the values of the Normalized View Port Rectangle property to resize and position the Camera’s view onscreen. This can create multiple mini-views like missile cams, map views, rear-view mirrors, etc. <br>
+
+            Render path<br>
+            Unity supports different rendering paths. You should choose which one you use depending on your game content and target platform / hardware. Different rendering paths have different features and performance characteristics that mostly affect lights and shadows. The rendering path used by your Project is chosen in the Player settings. Additionally, you can override it for each Camera.<br>
+
+            For more information on rendering paths, check the rendering paths page.<br>
+
+            <div class="line"></div>
+            <h2 id="clearFlags">Clear Flags</h2><br>
+            Each Camera stores color and depth information when it renders its view. The portions of the screen that are not drawn in are empty, and will display the skybox by default. When you are using multiple Cameras, each one stores its own color and depth information in buffers, accumulating more data as each Camera renders. As any particular Camera in your scene renders its view, you can set the Clear Flags to clear different collections of the buffer information. To do this, choose one of the following four options:<br>
+
+Skybox
+This is the default setting. Any empty portions of the screen will display the current Camera’s skybox. If the current Camera has no skybox set, it will default to the skybox chosen in the Lighting Window (menu: Window > Rendering
+ > Lighting Settings). It will then fall back to the Background Color. Alternatively a Skybox component can be added to the camera. If you want to create a new Skybox, you can use this guide.
+
+Solid color
+Any empty portions of the screen will display the current Camera’s Background Color.
+
+Depth only
+If you want to draw a player’s gun without letting it get clipped inside the environment, set one Camera at Depth 0 to draw the environment, and another Camera at Depth 1 to draw the weapon alone. Set the weapon Camera’s Clear Flags to depth only. This will keep the graphical display of the environment on the screen, but discard all information about where each object exists in 3-D space. When the gun is drawn, the opaque parts will completely cover anything drawn, regardless of how close the gun is to the wall.
+
+The gun is drawn last, after clearing the depth buffer of the cameras before it
+The gun is drawn last, after clearing the depth buffer of the cameras before it
+Don’t clear
+This mode does not clear either the color or the depth buffer
+. The result is that each frame is drawn over the next, resulting in a smear-looking effect. This isn’t typically used in games, and would more likely be used with a custom shader
+.
+
+Note that on some GPUs (mostly mobile GPUs), not clearing the screen might result in the contents of it being undefined in the next frame. On some systems, the screen may contain the previous frame image, a solid black screen, or random colored pixels
+.
+
+Clip Planes
+The Near and Far Clip Plane properties determine where the Camera’s view begins and ends. The planes are laid out perpendicular to the Camera’s direction and are measured from its position. The Near plane is the closest location that will be rendered, and the Far plane is the furthest.
+
+The clipping planes also determine how depth buffer precision is distributed over the scene. In general, to get better precision you should move the Near plane as far as possible.
+
+Note that the near and far clip planes together with the planes defined by the field of view of the camera describe what is popularly known as the camera frustum. Unity ensures that when rendering your objects those which are completely outside of this frustum are not displayed. This is called Frustum Culling. Frustum Culling happens irrespective of whether you use Occlusion Culling in your game.
+
+For performance reasons, you might want to cull small objects earlier. For example, small rocks and debris could be made invisible at much smaller distance than large buildings. To do that, put small objects into a separate layer and set up per-layer cull distances using Camera.layerCullDistances script function.
+
+Culling Mask
+The Culling Mask is used for selectively rendering groups of objects using Layers. More information on using layers can be found here.
+
+Normalized Viewport Rectangles
+Normalized Viewport Rectangle is specifically for defining a certain portion of the screen that the current camera view will be drawn upon. You can put a map view in the lower-right hand corner of the screen, or a missile-tip view in the upper-left corner. With a bit of design work, you can use Viewport Rectangle to create some unique behaviors.
+
+It’s easy to create a two-player split screen effect using Normalized Viewport Rectangle. After you have created your two cameras, change both camera’s H values to be 0.5 then set player one’s Y value to 0.5, and player two’s Y value to 0. This will make player one’s camera display from halfway up the screen to the top, and player two’s camera start at the bottom and stop halfway up the screen.
+
+            <div class="line"></div>
+
+            <h2 id="tips">Tips</h2> <br>
+            For a more detailed description, we recommend the video -<a href="https://www.youtube.com/watch?v=IlKaB1etrik"><strong><em>How to make a Video Game in Unity - BASICS (E01)</em></strong></a> - from Brackeys. <br>
+            This video is part of a playlist in which you learn to create your first project. <br>
+            We heartily recommend the Brackeys channal. <br>
+            Every week there is a new video on the channel about Unity with helpful tips. <br>
+
+
+
+            <div class="line"></div>
+
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>

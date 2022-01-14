@@ -1,0 +1,46 @@
+body{
+  background: #fafafa;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.firstBackground{
+  background-color: black;
+}
+
+/* change the background color */
+.bg-company-custom {
+    background-color: #E6E6E6 !important;
+    font-size: 150%;
+    color: black;
+}
+
+.navbar {
+    min-height: 60px;
+    color: black;
+}
